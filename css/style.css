@@ -1,0 +1,10 @@
+*{
+  font-family: calibri;
+}
+table, th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
+tr:first-child {
+  background-color: lightgray;
+}

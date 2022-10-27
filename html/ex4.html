@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lam HW08 Exercise 4 </title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<a href="../index.html">Main Page</a>
+
+<body>
+  <form>
+    <h1>Sample Form</h1>
+    <p>
+      <label for="Name">Name</label>
+      <input type="text" name="Name" id="Name" required>
+      <span id="username"></span>
+    </p>
+    <p>
+      <label for="Email">Email</label>
+      <input type="email" name="Email" id="Email" required placeholder="name@domain">
+      <span id="userEmail"></span>
+    </p>
+    <p>
+      Payment Type: <br>
+      <input type="radio" name="paymentType" id="cash" value="CSH" checked>
+      <label for="cash">Cash</label> <br>
+
+      <input type="radio" name="paymentType" id="creditcard" value="CCR">
+      <label for="creditcard">Credit Card</label><br>
+
+      <input type="radio" name="paymentType" id="googlepay" value="GOOGL">
+      <label for="googlepay">Google pay</label><br>
+
+      <input type="radio" name="paymentType" id="applepay" value="APPL">
+      <label for="googlepay">Apple Pay</label><br>
+
+    </p>
+    <p>
+
+      <input type="checkbox" name="promotion" id="confirmation">
+      <label for="promotion">Sign me up for special promotions</label><br>
+
+    </p>
+    <p>
+      <label for="location">Preferred Location: </label>
+      <select name="location" id="location" <option value="LA" selected>Los Angeles</option>
+        <option value="LA">Los Angeles</option>
+        <option value="OC">Orange Country</option>
+        <option value="Ri">Riverside</option>
+        <option value="SD">San Diego</option>
+      </select>
+    </p>
+
+    <input type="submit" value="Submit">
+    <input type="submit" value="Cancel" 
+  </form>
+  
+  <p id="result"></p>
+<p>
+    <table id="tabledata">
+        <tr>
+          <th>Key</th>
+          <th>Value</th> 
+        </tr>
+     
+      </table>
+  </table>
+
+</p>
+    <script src="../js/ex4.js"></script>
+</body>
+
+</html>
